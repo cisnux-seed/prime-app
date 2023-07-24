@@ -20,7 +20,7 @@ jobs:
           avd-name: myavd
           no-window: true
           no-boot-anim: false
-          system-image: system-images;android-33;google_apis;x86_64
+          system-image: system-images;android-29;default;x86
           disable-animations: false          
           restore-gradle-cache-prefix: v1a
           test-command: adb shell am instrument -w dev.cisnux.prime.presentation.home/dev.cisnux.prime.CustomTestRunner
