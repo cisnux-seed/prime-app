@@ -16,14 +16,11 @@ jobs:
       - checkout
       - android/run-tests:
           test-command: ./gradlew core:test
-      - android/create-avd:
-          avd-name: myavd
-          install: true
-          system-image: system-images;android-29;default;x86
       - android/start-emulator-and-run-tests:
           avd-name: myavd
           no-window: true
           no-boot-anim: false
+          system-image: system-images;android-29;default;x86
           disable-animations: false          
           restore-gradle-cache-prefix: v1a
           test-command: ./gradlew app:connectedDebugAndroidTest
