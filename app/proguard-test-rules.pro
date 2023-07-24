@@ -30,5 +30,4 @@
 -keep class kotlin.collections.**{*;}
 -keep class kotlin.sequences.**{*;}
 -keep class kotlin.text.**{*;}
--keep class androidx.test.runner.AndroidJUnitRunner{*;}
 -ignorewarnings
