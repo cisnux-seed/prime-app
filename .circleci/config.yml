@@ -18,14 +18,19 @@ jobs:
       - android/run-tests:
           test-command: ./gradlew core:test
       - android/start-emulator-and-run-tests:
-          avd-name: myavd
-          no-window: false
-          no-boot-anim: false
-          system-image: system-images;android-29;default;x86
-          disable-animations: false          
-          restore-gradle-cache-prefix: v1a
-          test-command: ./gradlew app:connectedAndroidTest
-          max-tries: 1
+          save-gradle-cache: true 
+          wait-for-emulator: true 
+          verbose: true 
+          run-logcat: false 
+          max-tries: 1 
+          disable-animations: false 
+          delay-adb: false 
+          avd-name: myavd 
+          install-system-image: true 
+          kill-emulators: true 
+          no-boot-anim: true 
+          no-window: true 
+          retry-interval: 10 
       - android/save-gradle-cache:
           cache-prefix: v1a      
 workflows:
