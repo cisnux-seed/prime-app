@@ -9,6 +9,7 @@ jobs:
       tag: 2021.10.1
     steps:
       - run:
+          name: Download JDK 17
           command: |
             curl -s "https://get.sdkman.io" | bash && source "$HOME/.sdkman/bin/sdkman-init.sh"
             sdk install java 17.0.7-jbr
@@ -23,7 +24,7 @@ jobs:
           system-image: system-images;android-29;default;x86
           disable-animations: false          
           restore-gradle-cache-prefix: v1a
-          test-command: adb shell am instrument -w dev.cisnux.prime.presentation.home/dev.cisnux.prime.CustomTestRunner
+          test-command: adb shell am instrument -w dev.cisnux.prime.presentation.home/androidx.test.runner.AndroidJUnitRunner
       - android/save-gradle-cache:
           cache-prefix: v1a
 workflows:
