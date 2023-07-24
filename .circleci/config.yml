@@ -16,23 +16,22 @@ jobs:
             java --version      
       - checkout
       - android/run-tests:
-          test-command: ./gradlew core:test
-      - android/start-emulator-and-run-tests:
-          save-gradle-cache: true 
-          wait-for-emulator: true 
-          verbose: true 
-          run-logcat: false 
-          max-tries: 1 
-          disable-animations: false 
-          delay-adb: false 
-          avd-name: myavd 
-          install-system-image: true 
-          kill-emulators: true 
-          no-boot-anim: true 
-          no-window: true 
-          retry-interval: 10 
-      - android/save-gradle-cache:
-          cache-prefix: v1a      
+          test-command: ./gradlew core:test 
+          max-tries: 1
+      - run:
+          name: Run Build
+          command: ./gradlew build
+      - store_artifacts: 
+          path: app/build/reports
+          destination: reports
+      - run:
+          name: Run Tests
+          command: ./gradlew lint test
+      - store_test_results:
+          path: app/build/test-results
+      - store_artifacts:  
+          path: app/build/outputs/apk/debug/
+          destination: artifact-file    
 workflows:
   test:
     jobs:
