@@ -17,8 +17,6 @@ jobs:
       - checkout
       - android/run-tests:
           test-command: ./gradlew core:test
-      - android/save-gradle-cache:
-          cache-prefix: v1a    
       - android/start-emulator-and-run-tests:
           avd-name: myavd
           no-window: false
@@ -27,7 +25,9 @@ jobs:
           disable-animations: false          
           restore-gradle-cache-prefix: v1a
           test-command: ./gradlew app:connectedAndroidTest
-          max-tries: 1  
+          max-tries: 1
+      - android/save-gradle-cache:
+          cache-prefix: v1a      
 workflows:
   test:
     jobs:
