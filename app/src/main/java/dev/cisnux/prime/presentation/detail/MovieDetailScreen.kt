@@ -1,6 +1,7 @@
 package dev.cisnux.prime.presentation.detail
 
 import android.content.res.Configuration
+import androidx.activity.compose.BackHandler
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -97,6 +98,10 @@ fun MovieDetailScreen(
         .recommendationMovies
         .collectAsLazyPagingItems()
     val movieDetailState by movieDetailViewModel.movieDetailState.collectAsStateWithLifecycle()
+
+    BackHandler {
+        navigateUp()
+    }
 
     when {
         movieDetailState is UiState.Success -> {

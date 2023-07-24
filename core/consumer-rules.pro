@@ -2,5 +2,4 @@
 -keep public class net.sqlcipher.database.**{*;}
 -keep class okhttp3.ResponseBody{*;}
 -keep class com.android.tools.profiler.agent.okhttp.**{*;}
--keep class androidx.test.runner.AndroidJUnitRunner{*;}
 -ignorewarnings
