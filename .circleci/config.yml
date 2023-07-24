@@ -20,14 +20,14 @@ jobs:
           max-tries: 1
       - store_test_results:
           path: core/build/test-results
-      - run:
-          name: Run Build
-          command: ./gradlew assembleRelease
       - store_artifacts: 
           path: app/build/reports
-          destination: reports    
+          destination: reports
+      - run:
+          name: Run Build
+          command: ./gradlew assembleRelease    
       - store_artifacts:  
-          path: app/build/outputs/apk/debug/
+          path: app/build/outputs/apk/release/
           destination: artifact-file  
 workflows:
   test:
