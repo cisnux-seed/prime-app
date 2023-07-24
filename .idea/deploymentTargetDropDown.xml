@@ -16,12 +16,12 @@
               <deviceKey>
                 <Key>
                   <type value="VIRTUAL_DEVICE_PATH" />
-                  <value value="$USER_HOME$/.android/avd/Pixel_6_Pro_API_30.avd" />
+                  <value value="$USER_HOME$/.android/avd/Pixel_7_Pro_API_33.avd" />
                 </Key>
               </deviceKey>
             </Target>
           </targetSelectedWithDropDown>
-          <timeTargetWasSelectedWithDropDown value="2023-07-22T23:28:58.532488Z" />
+          <timeTargetWasSelectedWithDropDown value="2023-07-24T05:28:45.773086Z" />
         </State>
       </entry>
       <entry key="splashScreen_navigateToHomeScreen()">
