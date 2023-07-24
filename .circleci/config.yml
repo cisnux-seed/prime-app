@@ -10,7 +10,8 @@ jobs:
     steps:
       - run:
           command: |
-            curl -s "https://get.sdkman.io" | bash && sdk install java 17.0.7-jbr
+            curl -s "https://get.sdkman.io" | bash && source "$HOME/.sdkman/bin/sdkman-init.sh"
+            sdk install java 17.0.7-jbr
             java --version      
       - checkout
       - android/run-tests:
