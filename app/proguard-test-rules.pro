@@ -1,0 +1,33 @@
+-keepnames @dagger.hilt.android.lifecycle.HiltViewModel class * extends androidx.lifecycle.ViewModel
+-keep class dagger.hilt.android.internal.testing.**{*;}
+-keep class dagger.hilt.internal.**{*;}
+-keep class kotlinx.coroutines.**{*;}
+-keep class kotlin.time.**{*;}
+-keep class androidx.compose.ui.platform.**{*;}
+-keep class dagger.hilt.**{*;}
+-keep class com.google.common.util.concurrent.**{*;}
+-keep class kotlin.coroutines.**{*;}
+-keep class androidx.navigation.**{*;}
+-keep class androidx.compose.runtime.**{*;}
+-keep class kotlin.comparisons.ComparisonsKt{*;}
+-keep class androidx.compose.ui.node.RootForTest{*;}
+-keep class androidx.compose.ui.semantics.**{*;}
+-keep class androidx.compose.ui.layout.**{*;}
+-keep class java.lang.management.**{*;}
+-keep class kotlin.jvm.JvmClassMappingKt{*;}
+-keep class kotlin.reflect.KClass{*;}
+-keep class dev.cisnux.core.domain.models.MovieDetail{*;}
+-keep class androidx.paging.PagingData{*;}
+-keep class kotlin.LazyKt{*;}
+# Keep Jetpack Compose classes and methods
+-keep class androidx.compose.** { *; }
+-keepclassmembers class androidx.compose.** { *; }
+-keepclassmembers class kotlin.Metadata { *; }
+-keepclassmembers class **$$DefaultImpls { *; }
+-keep class * implements androidx.compose.runtime.Composable {
+  <methods>;
+}
+-keep class kotlin.collections.**{*;}
+-keep class kotlin.sequences.**{*;}
+-keep class kotlin.text.**{*;}
+-ignorewarnings

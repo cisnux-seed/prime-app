@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "960871905430",
+    "project_id": "prime-973c0",
+    "storage_bucket": "prime-973c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:960871905430:android:716c8d3f1b12073e87aab7",
+        "android_client_info": {
+          "package_name": "dev.cisnux.prime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "960871905430-ietbgklcmull1uu1o31oabdq25kmjrcf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGIlL9MB06MDWP1gYxbZ_jnKpMdqLWbMs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "960871905430-ietbgklcmull1uu1o31oabdq25kmjrcf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

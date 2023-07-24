@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Cisnux Prime</string>
+    <string name="watchlist">Watchlist</string>
+    <string name="overview">Overview</string>
+    <string name="recommendations">Recommendations</string>
+    <string name="retry">Retry</string>
+    <string name="add_to_watchlist">Add to Watchlist</string>
+    <string name="remove_from_watchlist">Remove from Watchlist</string>
+    <string name="no_watchlist">No watchlist</string>
+    <string name="movies_not_found">Movies not found</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="popular">Popular</string>
+    <string name="top_rated">Top Rated</string>
+    <string name="back_to_previous_page">back to previous page</string>
+    <string name="searchbar_hint">title, genres, overview</string>
+    <string name="title_favorite_movies">Favorite Movies</string>
+    <string name="watchlist_movies_content_desc">list of watchlist movies</string>
+    <string name="undo">Undo</string>
+    <string name="added_to_watchlist">Added to watchlist</string>
+    <string name="removed_from_watchlist">Removed from watchlist</string>
+    <string name="now_playing_content_desc">list of now playing movies</string>
+    <string name="popular_movies_content_desc">list of popular movies</string>
+    <string name="top_rated_movies_content_desc">list of top rated movies</string>
+    <string name="app_widget_description">random watchlist movies</string>
+</resources>

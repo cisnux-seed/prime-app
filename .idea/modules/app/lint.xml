@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="IconLocation">
+        <ignore path="/Users/cisnux/ApplicationDevelopments/prime/app/src/main/res/drawable/empty_watchlist.webp" />
+        <ignore path="/Users/cisnux/ApplicationDevelopments/prime/app/src/main/res/drawable/empty_watchlist.webp" />
+        <ignore path="/Users/cisnux/ApplicationDevelopments/prime/app/src/main/res/drawable/random_watchlist_widget_preview.webp" />
+        <ignore path="/Users/cisnux/ApplicationDevelopments/prime/app/src/main/res/drawable/random_watchlist_widget_preview.webp" />
+    </issue>
+</lint>
