@@ -44,7 +44,7 @@ import dev.cisnux.prime.presentation.ui.theme.PrimeGlanceTheme
 class RandomWatchlistWidget : GlanceAppWidget() {
     @EntryPoint
     @InstallIn(SingletonComponent::class)
-    interface FavoriteMovieEntryPoint {
+    interface RandomWatchlistEntryPoint {
         fun movieUseCase(): MovieInteractor
     }
 
@@ -52,7 +52,7 @@ class RandomWatchlistWidget : GlanceAppWidget() {
         val appContext = context.applicationContext ?: throw IllegalStateException()
         val hiltEntryPoint = EntryPointAccessors.fromApplication(
             appContext,
-            FavoriteMovieEntryPoint::class.java
+            RandomWatchlistEntryPoint::class.java
         )
 
         provideContent {
