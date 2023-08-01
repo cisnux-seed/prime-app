@@ -27,4 +27,4 @@ This is an Android Application that implemented the Clean Architecture by using 
 - CircleCI
 
 ## HomeSreen
-<img src="https://github.com/cisnux-seed/prime-app/assets/68740152/194dcdac-794a-4d72-9d76-d6cfd4bd8d49" width="300" height="500">
+<img src="https://github.com/cisnux-seed/prime-app/assets/68740152/194dcdac-794a-4d72-9d76-d6cfd4bd8d49" width="300" height="800">
