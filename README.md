@@ -33,7 +33,7 @@ This is an Android Application that implemented the Clean Architecture by using 
 ## Screens
 
 ### Home Screen
-<img src="https://github.com/cisnux-seed/prime-app/assets/68740152/d17ccf0c-1285-4380-a6c9-8cc9bed31842" width="400" height="800">
+<img src="https://github.com/cisnux-seed/prime-app/assets/68740152/aa50afd9-64da-4aba-bea0-09030cc8e5af" width="400" height="800">
 
 ### Detail Screen
 <img src="https://github.com/cisnux-seed/prime-app/assets/68740152/e24af7ad-1a9a-4821-9182-e7e56125ead8" width="400" height="800">
