@@ -19,7 +19,7 @@ android {
         )
         buildConfigField(
             "String", "CERTIFICATE_PINNING",
-            "\"sha256/NPIMWkzcNG/MyZsVExrC6tdy5LTZzeeKg2UlnGG55UY=\""
+            "\"sha256/5VLcahb6x4EvvFrCF2TePZulWqrLHS2jCg9Ywv6JHog=\""
         )
         buildConfigField(
             "String", "PASSPHRASE",
