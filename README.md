@@ -4,7 +4,7 @@
 
 This is an Android Application that implemented the Clean Architecture by using Jetpack Compose and Ktor. Besides that, I also created some tests, such as Unit Tests, Integration Tests, and End-to-End Tests. This app used TMDB API to fetch movie data from the server.
 
-## List Of Feature
+## List Of Features
 
 - Now Playing Movies
 - Popular Movies
